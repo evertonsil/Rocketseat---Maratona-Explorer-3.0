@@ -6,7 +6,7 @@
 body{
     background-color: #E2D5FF;
     text-align: center;
-    font-family: 'Roboto Serif';
+    font-family: 'Roboto', sans-serif;
 }
 
 ul{
@@ -19,6 +19,14 @@ header h1 span{
 
 header h1{
     margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 33px;
+}
+
+header p{
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 header, section{
@@ -38,6 +46,7 @@ section h2{
     background-color: #CAAAFE;
     padding: 8px 16px 8px 16px;
     margin-bottom: 24px;
+    font-size: 18px;
 }
 
 li{
@@ -52,6 +61,22 @@ li .productDetails{
 
 .productDetails h3{
     margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 19px;
 }
+
+.productDetails p{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 21px;
+}
+
+h1, h2, h3, .productPrice{
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+    color: #2D2C2A;
+}
+
+
 
 
